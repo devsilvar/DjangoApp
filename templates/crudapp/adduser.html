@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends "crudapp/base.html" %} {% block body_block %}
+
+<h2 class="text-center my-3 display-2">Add New User Here!</h2>
+
+<form action="" method="POST" class="shadow p-4 m-auto d-block w-25">
+  {{form.as_div}} {% csrf_token %}
+  <button
+    type="submit"
+    class="m-auto d-block btn btn-outline-warning text-dark rounded-md mt-4"
+  >
+    Add New User
+  </button>
+</form>
+{% endblock body_block %}

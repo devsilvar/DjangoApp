@@ -1,0 +1,16 @@
+form div {
+  margin-bottom: 10px;
+}
+ul {
+  display: none;
+}
+.user_card {
+  cursor: pointer;
+}
+
+.user_card:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+}
